@@ -4,10 +4,10 @@
 <dict>
 	<key>MachServices</key>
 	<dict>
-		<key>com.apple.bsd.SMJobBlessHelper</key>
+		<key>io.beiming.firenet.SMJobBlessHelper</key>
 		<true/>
 	</dict>
 	<key>Label</key>
-	<string>com.apple.bsd.SMJobBlessHelper</string>
+	<string>io.beiming.firenet.SMJobBlessHelper</string>
 </dict>
 </plist>

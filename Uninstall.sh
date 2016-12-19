@@ -46,6 +46,6 @@
 # This uninstalls everything installed by the sample.  It's useful when testing to ensure that 
 # you start from scratch.
 
-sudo launchctl unload /Library/LaunchDaemons/com.apple.bsd.SMJobBlessHelper.plist
-sudo rm /Library/LaunchDaemons/com.apple.bsd.SMJobBlessHelper.plist
-sudo rm /Library/PrivilegedHelperTools/com.apple.bsd.SMJobBlessHelper
+sudo launchctl unload /Library/LaunchDaemons/io.beiming.firenet.SMJobBlessHelper.plist
+sudo rm /Library/LaunchDaemons/io.beiming.firenet.SMJobBlessHelper.plist
+sudo rm /Library/PrivilegedHelperTools/io.beiming.firenet.SMJobBlessHelper

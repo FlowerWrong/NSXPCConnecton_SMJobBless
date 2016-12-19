@@ -10,7 +10,7 @@
 		4BE4905110445D49006BE471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4904D10445D49006BE471 /* main.m */; };
 		4BE4906410445F2F006BE471 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE4906310445F2F006BE471 /* Security.framework */; };
 		4BE4906810445F36006BE471 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE4906710445F36006BE471 /* ServiceManagement.framework */; };
-		4BE49092104463A0006BE471 /* com.apple.bsd.SMJobBlessHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4BE4905D10445E0A006BE471 /* com.apple.bsd.SMJobBlessHelper */; };
+		4BE49092104463A0006BE471 /* io.beiming.firenet.SMJobBlessHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4BE4905D10445E0A006BE471 /* io.beiming.firenet.SMJobBlessHelper */; };
 		682FE26E19C88B7900ED5E7F /* SMJobBlessHelperInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 682FE26C19C88B7900ED5E7F /* SMJobBlessHelperInterface.mm */; };
 		682FE27119C88BF700ED5E7F /* SMJobBlessHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 682FE26F19C88BF700ED5E7F /* SMJobBlessHelper.mm */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -35,7 +35,7 @@
 			dstPath = Contents/Library/LaunchServices;
 			dstSubfolderSpec = 1;
 			files = (
-				4BE49092104463A0006BE471 /* com.apple.bsd.SMJobBlessHelper in CopyFiles */,
+				4BE49092104463A0006BE471 /* io.beiming.firenet.SMJobBlessHelper in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +47,7 @@
 		4BE4904D10445D49006BE471 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4BE4905310445DDD006BE471 /* SMJobBlessHelper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SMJobBlessHelper-Info.plist"; sourceTree = "<group>"; };
 		4BE4905410445DDD006BE471 /* SMJobBlessHelper-Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SMJobBlessHelper-Launchd.plist"; sourceTree = "<group>"; };
-		4BE4905D10445E0A006BE471 /* com.apple.bsd.SMJobBlessHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.apple.bsd.SMJobBlessHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE4905D10445E0A006BE471 /* io.beiming.firenet.SMJobBlessHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = io.beiming.firenet.SMJobBlessHelper; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE4906310445F2F006BE471 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		4BE4906710445F36006BE471 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
 		682FE26B19C889E200ED5E7F /* SMJobBlessHelperInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMJobBlessHelperInterface.h; path = SMJobBlessInterface/SMJobBlessHelperInterface.h; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* FirenetApp.app */,
-				4BE4905D10445E0A006BE471 /* com.apple.bsd.SMJobBlessHelper */,
+				4BE4905D10445E0A006BE471 /* io.beiming.firenet.SMJobBlessHelper */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4BE4905C10445E0A006BE471 /* com.apple.bsd.SMJobBlessHelper */ = {
+		4BE4905C10445E0A006BE471 /* io.beiming.firenet.SMJobBlessHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4BE4906210445E31006BE471 /* Build configuration list for PBXNativeTarget "com.apple.bsd.SMJobBlessHelper" */;
+			buildConfigurationList = 4BE4906210445E31006BE471 /* Build configuration list for PBXNativeTarget "io.beiming.firenet.SMJobBlessHelper" */;
 			buildPhases = (
 				4BE4905A10445E0A006BE471 /* Sources */,
 				4BE4905B10445E0A006BE471 /* Frameworks */,
@@ -162,9 +162,9 @@
 			);
 			dependencies = (
 			);
-			name = com.apple.bsd.SMJobBlessHelper;
+			name = io.beiming.firenet.SMJobBlessHelper;
 			productName = SMJobBlessHelper;
-			productReference = 4BE4905D10445E0A006BE471 /* com.apple.bsd.SMJobBlessHelper */;
+			productReference = 4BE4905D10445E0A006BE471 /* io.beiming.firenet.SMJobBlessHelper */;
 			productType = "com.apple.product-type.tool";
 		};
 		8D1107260486CEB800E47090 /* FirenetApp */ = {
@@ -217,7 +217,7 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* FirenetApp */,
-				4BE4905C10445E0A006BE471 /* com.apple.bsd.SMJobBlessHelper */,
+				4BE4905C10445E0A006BE471 /* io.beiming.firenet.SMJobBlessHelper */,
 			);
 		};
 /* End PBXProject section */
@@ -257,7 +257,7 @@
 /* Begin PBXTargetDependency section */
 		4BE4907F1044624F006BE471 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4BE4905C10445E0A006BE471 /* com.apple.bsd.SMJobBlessHelper */;
+			target = 4BE4905C10445E0A006BE471 /* io.beiming.firenet.SMJobBlessHelper */;
 			targetProxy = 4BE4907E1044624F006BE471 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -280,7 +280,8 @@
 					__launchd_plist,
 					"SMJobBlessHelper/SMJobBlessHelper-Launchd.plist",
 				);
-				PRODUCT_NAME = com.apple.bsd.SMJobBlessHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = io.beiming.firenet.SMJobBlessHelper;
+				PRODUCT_NAME = io.beiming.firenet.SMJobBlessHelper;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = /Users/labuser/Downloads/SMJobBless/SMJobBlessInterface;
 			};
@@ -303,7 +304,8 @@
 					__launchd_plist,
 					"SMJobBlessHelper/SMJobBlessHelper-Launchd.plist",
 				);
-				PRODUCT_NAME = com.apple.bsd.SMJobBlessHelper;
+				PRODUCT_BUNDLE_IDENTIFIER = io.beiming.firenet.SMJobBlessHelper;
+				PRODUCT_NAME = io.beiming.firenet.SMJobBlessHelper;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = /Users/labuser/Downloads/SMJobBless/SMJobBlessInterface;
 			};
@@ -317,6 +319,7 @@
 				DEVELOPMENT_TEAM = 277DAJE26X;
 				HEADER_SEARCH_PATHS = /Users/labuser/Downloads/SMJobBless/SMJobBlessInterface;
 				INFOPLIST_FILE = "SMJobBlessApp/FirenetApp-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = io.beiming.firenet.SMJobBlessApp;
 				PRODUCT_NAME = FirenetApp;
 				USER_HEADER_SEARCH_PATHS = /Users/labuser/Downloads/SMJobBless/SMJobBlessInterface;
 			};
@@ -330,6 +333,7 @@
 				DEVELOPMENT_TEAM = 277DAJE26X;
 				HEADER_SEARCH_PATHS = /Users/labuser/Downloads/SMJobBless/SMJobBlessInterface;
 				INFOPLIST_FILE = "SMJobBlessApp/FirenetApp-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = io.beiming.firenet.SMJobBlessApp;
 				PRODUCT_NAME = FirenetApp;
 				USER_HEADER_SEARCH_PATHS = /Users/labuser/Downloads/SMJobBless/SMJobBlessInterface;
 			};
@@ -421,7 +425,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4BE4906210445E31006BE471 /* Build configuration list for PBXNativeTarget "com.apple.bsd.SMJobBlessHelper" */ = {
+		4BE4906210445E31006BE471 /* Build configuration list for PBXNativeTarget "io.beiming.firenet.SMJobBlessHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4BE4905F10445E0B006BE471 /* Debug */,

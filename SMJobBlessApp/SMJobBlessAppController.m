@@ -61,7 +61,7 @@ Copyright (C) 2013 Apple Inc. All Rights Reserved.
 {
     #pragma unused(notification)
 	NSError *error = nil;
-    static NSString* kHelperToolName = @"com.apple.bsd.SMJobBlessHelper";
+    static NSString* kHelperToolName = @"io.beiming.firenet.SMJobBlessHelper";
     
     OSStatus status = AuthorizationCreate(NULL, kAuthorizationEmptyEnvironment, kAuthorizationFlagDefaults, &self->_authRef);
     if (status != errAuthorizationSuccess)

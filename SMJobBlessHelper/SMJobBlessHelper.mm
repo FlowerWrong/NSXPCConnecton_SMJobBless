@@ -55,7 +55,7 @@ Copyright (C) 2011 Apple Inc. All Rights Reserved.
 #import <syslog.h>
 #import "SMJobBlessHelperInterface.h"
 
-static NSString* kHelperToolName = @"com.apple.bsd.SMJobBlessHelper";
+static NSString* kHelperToolName = @"io.beiming.firenet.SMJobBlessHelper";
 
 int main(int argc, const char *argv[])
 {
