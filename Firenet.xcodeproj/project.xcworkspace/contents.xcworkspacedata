@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SMJobBless.xcodeproj">
+      location = "self:/Users/kingyang/dev/cpp/gfw/NSXPCConnecton_SMJobBless/Firenet.xcodeproj">
    </FileRef>
 </Workspace>
